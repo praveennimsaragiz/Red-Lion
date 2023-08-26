@@ -1,0 +1,131 @@
+{ 
+   "name": "Red-Lion", 
+   "description": "A Whatsapp md bot built in NodeJs to make experience better", 
+   "logo": "https://i.ibb.co/k3qHnYF/20230825-111512.jpg", 
+   "keywords": ["nodejs", "bot", "whatsapp bot", "Zero-Two", "Red-Lionbot", "Secktor","Red-Lion","theme bot","multi device","baileys","Sam Pandey"], 
+   "success_url": "/", 
+   "stack": "container", 
+ "env": { 
+   "OWNER_NAME": { 
+   "description": "Name of Bot Owner( බොට් හිමිකරුගේ නම )", 
+       "value": "Theekshanamax" 
+   }, 
+   "ALIVE_MESSAGE": { 
+     "description": "Alive message for bot(බොට් සඳහා සජීවී පණිවිඩය)", 
+      "required" :false 
+     }, 
+     "SESSION_ID": {
+      "description": "Please put your SESSION_ID here(කරුණාකර ඔබේ SESSION_ID මෙහි දමන්න)"
+    },
+     "AUTO_STATUS_SAVER": { 
+       "description": "Automatically saves status of every person and sends in log number(සෑම පුද්ගලයෙකුගේම තත්ත්වය ස්වයංක්‍රීයව සුරකින අතර ලොග් අංකය යවයි).", 
+        "required" :false 
+       }, 
+     "HEROKU_API_KEY": { 
+     "description": "Put HEROKU API KEY( HEROKU API යතුර දමන්න )", 
+      "required" :false 
+     }, 
+   "HEROKU_APP_NAME": { 
+     "description": "Put HEROKU APP NAME same as above(ඉහත ආකාරයටම HEROKU APP නම දමන්න).", 
+      "required" :false 
+     }, 
+    "THUMB_IMAGE": { 
+     "description": "THUMBNAIL for bot(bot සඳහා THUMBNAIL).", 
+      "value": "https://raw.githubusercontent.com/nipuna15/nipuna15/main/20230616_150824.png" 
+     }, 
+     "ANTI_BAD_WORD": { 
+     "description": "Put words here. If you want it enabled in your bot otherwise leave it blank(වචන මෙතන දාන්න  ඔබට එය ඔබගේ බොට් එකෙහි සක්‍රීය කිරීමට අවශ්‍ය නම් එසේ නොමැතිනම් එය හිස්ව තබන්න)", 
+      "required" :false 
+     }, 
+    "ANTILINK_VALUES": { 
+     "description": "Put words for antilink(Antilink සඳහා වචන දමන්න)", 
+      "value": "chat.whatsapp.com,fb.com,instagram.com", 
+      "required" :false 
+     }, 
+      "ANTILINK_ACTION": { 
+     "description": "Put action for antilink(ප්‍රති-ලින්ක් සඳහා ක්‍රියා කරන්න)", 
+      "value": "remove", 
+      "required" :false 
+     }, 
+   "LEVEL_UP_MESSAGE": { 
+     "description": "Fill the value true if you want bot send Level up message in chat(ඔබට කතාබස් තුළ bot Level up පණිවිඩයක් යැවීමට අවශ්‍ය නම් සත්‍ය අගය පුරවන්න).", 
+      "required" :false, 
+      "value": "false" 
+     }, 
+       "READ_MESSAGE": { 
+     "description": "Fill the value true if you want bot to read all messages(බොට් හට සියලුම පණිවිඩ කියවීමට අවශ්‍ය නම් සත්‍ය අගය පුරවන්න).", 
+      "required" :false, 
+      "value": "true" 
+     }, 
+    "DISABLE_PM": { 
+     "description": "Disable bot in pm(pm හි bot අක්‍රිය කරන්න)", 
+      "required" :false 
+     }, 
+       "PREFIX": { 
+   "description": "Enter your desired prefix for bot(බොට් සඳහා ඔබට අවශ්‍ය උපසර්ගය ඇතුළත් කරන්න).", 
+       "value": "." 
+   }, 
+   "OWNER_NUMBER": { 
+     "description": "The phone numbers of the users who you want to be admin for the bot (should be in international format without + and multiple numbers must be separated by a comma \",\") (ඔබට බොට් සඳහා පරිපාලක වීමට අවශ්‍ය පරිශීලකයින්ගේ දුරකථන අංක (+ නොමැතිව ජාත්‍යන්තර ආකෘතියෙන් තිබිය යුතු අතර බහු අංක කොමාවකින් වෙන් කළ යුතුය \",\")", 
+        "value": "94719892396" 
+   }, 
+     "OPENAI_API_KEY": { 
+     "description": "Please put your OPENAI api key here.Get it from beta.openai.com(කරුණාකර ඔබේ OPENAI api යතුර මෙහි දමන්න.එය beta.openai.com වෙතින් ලබා ගන්න) ", 
+        "value": "Replace Me(optional)", 
+        "required" :false 
+   }, 
+   "MONGODB_URI": { 
+     "description": "A secret String for Mongodb Connection.(Required),change for better experience(Mongodb සම්බන්ධතාවය සඳහා රහස් තන්තුවක්.(අවශ්‍ය), වඩා හොඳ අත්දැකීමක් සඳහා වෙනස් කරන්න)", 
+     "value": "mongodb+srv://sam:sam@cluster0.u1smxsv.mongodb.net/?retryWrites=true&w=majority" 
+   }, 
+     "THEME": { 
+     "description": "Put the theme name you want to use. Avilable themes are SECKTOR,ZEROTWO,NEZUKO,LUFFY,GOKU and many more..(ඔබට භාවිතා කිරීමට අවශ්‍ය තේමා නාමය දමන්න.  පවතින තේමා වන්නේ SECKTOR,ZERO, NEZUKO, LUFFY, GOKU සහ තවත් බොහෝ දේ වේ..)", 
+      "value": "Red-Lion" 
+   }, 
+     "WORKTYPE": { 
+   "description": "Worktype of your bot. Use public or private, if it is private then only bot number can use it. If public then everyone can use it(ඔබේ බොට් එකේ වැඩ වර්ගය.  පොදු හෝ පුද්ගලික භාවිතා කරන්න, එය පුද්ගලික නම්, එය භාවිතා කළ හැක්කේ බොට් අංකයට පමණි.  පොදු නම්, සෑම කෙනෙකුටම එය භාවිතා කළ හැකිය).", 
+          "value": "public" 
+   }, 
+       "AUTO_REACTION": { 
+     "description": "Reacts emoji to all commands(සියලුම විධාන වලට ඉමොජි ප්‍රතික්‍රියා කරයි).", 
+      "value": "true", 
+      "required": false  
+   }, 
+   "AUTO_BIO": { 
+    "description": "Auto set About(ගැන ස්වයංක්‍රීය කට්ටලය).", 
+     "value": "true", 
+     "required": false  
+  }, 
+    "ALWAYS_ONLINE": { 
+     "description": "All Time Online in whatsapp(whatsapp හි සියලු කාලය මාර්ගගතව).", 
+      "value": "true", 
+      "required": false  
+   },
+ "AUTO_READ_STATUS": { 
+     "description": "Auto Seen all status(සියලුම තත්ත්‍වයන් ස්වයංක්‍රීයව දැකීම).", 
+      "value": "true", 
+      "required": false  
+   },
+ "AUTO_VOICE": { 
+     "description": "Automatic send Voice massage(ස්වයංක්‍රීයව හඬ පණිවිඩ යැවීම).", 
+      "value": "true", 
+      "required": false  
+   },   
+   "PACK_INFO": { 
+     "description": "Put packname;authorname(packname;authorname දාන්න).", 
+      "value": "Nipuna;Blue-Lion", 
+      "required": false  
+   }, 
+   "heroku": { 
+     "description": "Weather it is on heroku or not(කාලගුණය Heroku මත හෝ නැත)", 
+      "value": "true", 
+      "required": false  
+   } 
+ }, 
+ "formation": { 
+                 "worker": { 
+                         "quantity": 1, 
+                         "size": "basic" 
+                 } 
+         } 
+ }
