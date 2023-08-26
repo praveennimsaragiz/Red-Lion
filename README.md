@@ -1,7 +1,7 @@
   <p align="center">  
   <a href="https://secktoruserbot.onrender.com/">
     <img alt="secktor docs" height="300" src="https://telegra.ph/file/3804686b6baf576dcf09c.jpg">
-    <h1 align="center">red lion MD Whatsapp bot</h1>
+    <h1 align="center">RED LION MD Whatsapp bot</h1>
   </a>
 </p>
    
