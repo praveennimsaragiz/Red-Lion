@@ -12,7 +12,6 @@
 ## web site
 https://sites.google.com/view/egsgfksa/home
 ##
-<button>https://sites.google.com/view/egsgfksa/home</button>
 
   
   ### Add Config Vars
