@@ -32,7 +32,7 @@
 16. ```PACK_INFO```***praveen;nimsara***
 17. ```PREFIX```***.***
 18. ```READ_MESSAGE```***false***
-19. ```SESSION_ID ```***Please put your SESSION_ID here,if you don't have visit https://secktorbot.herokuapp.com/sessio***
+19. ```SESSION_ID ```***your id***
 20. ```THEME```***REDLION***
 21. ```THUMB_IMAGE ```***https://telegra.ph/file/3804686b6baf576dcf09c.jpg***
 22. ```WORKTYPE ```***Worktype of your bot. Use public or private, if it is private then only bot number can use it. If public then everyone can use it.***
