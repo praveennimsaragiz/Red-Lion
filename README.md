@@ -13,8 +13,6 @@
 
 
   
-```
-{
   ### Add Config Vars
 1. ```ALIVE_MESSAGE```***Alive message for bot***
 2. ```ANTI_BAD_WORD```***true or false***
@@ -27,20 +25,18 @@
 9. ```HEROKU_API_KEY```***get***
 10. ```HEROKU_APP_NAME```***get***
 11. ```LEVEL_UP_MESSAGE```***false***
-11. ```MONGODB_URI```***get***
-11. ```OPENAI_API_KEY```***Replace Me(optional)***
-12. ```OWNER_NAME```***youre name***
-12. ```OWNER_NUMBER```***your number***
-12. ```PACK_INFO```***praveen;nimsara***
-12. ```PREFIX```***.***
-12. ```READ_MESSAGE```***false***
-12. ```SESSION_ID ```***Please put your SESSION_ID here,if you don't have visit https://secktorbot.herokuapp.com/sessio***
-12. ```THEME```***REDLION***
-12. ```THUMB_IMAGE ```***https://telegra.ph/file/3804686b6baf576dcf09c.jpg***
-12. ```WORKTYPE ```***Worktype of your bot. Use public or private, if it is private then only bot number can use it. If public then everyone can use it.***
-   
-}
-```
+12. ```MONGODB_URI```***get***
+13. ```OPENAI_API_KEY```***Replace Me(optional)***
+14. ```OWNER_NAME```***youre name***
+15. ```OWNER_NUMBER```***your number***
+16. ```PACK_INFO```***praveen;nimsara***
+17. ```PREFIX```***.***
+18. ```READ_MESSAGE```***false***
+19. ```SESSION_ID ```***Please put your SESSION_ID here,if you don't have visit https://secktorbot.herokuapp.com/sessio***
+20. ```THEME```***REDLION***
+21. ```THUMB_IMAGE ```***https://telegra.ph/file/3804686b6baf576dcf09c.jpg***
+22. ```WORKTYPE ```***Worktype of your bot. Use public or private, if it is private then only bot number can use it. If public then everyone can use it.***
+23. ###
 
 - Star ⭐ repo if you like RED LION .
 ### Thanks To
