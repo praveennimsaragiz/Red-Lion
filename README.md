@@ -5,27 +5,22 @@
   </a>
 </p>
    
-<p align="center">
 
-  <a aria-label="Join our chats" href="https://www.youtube.com/@YourPenPal" target="_blank">
-    <img alt="whatsapp" src="https://img.shields.io/badge/Join Group-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
-  </a>
  
-  
  
 ---
 
-<p align="center"><img src="https://profile-counter.glitch.me/{SamPandey001}/count.svg" alt="SamPandey001 :: Visitor's Count" /></p>
+
 
   
 ```
 {
   "SESSION_ID": "ID-Here",
-  "OWNER_NUMBER": "91xxxxxxxxxx",
+  "OWNER_NUMBER": "94xxxxxxxxxx",
   "OWNER_NAME": "EREN JEAGER",
   "OPENAI_API_KEY": "null",
-  "MONGODB_URI": "mongodb+srv://sam:sam@cluster0.u1smxsv.mongodb.net/?retryWrites=true&w=majority",
-  "PACK_INFO": "Sam;Pandey",
+  "MONGODB_URI": 
+  "PACK_INFO": "RED;LION",
   "PREFIX": "."
    
 }
