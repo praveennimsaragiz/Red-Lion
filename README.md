@@ -10,7 +10,9 @@
  
 ---
 
-
+## scan Qr 
+https://replit.com/@SuhailTechInfo/Secktor-Bot
+##
 
   
   ### Add Config Vars
