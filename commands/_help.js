@@ -33,11 +33,11 @@ Secktor.cmd({
                 let arr = [];
                 const cmd = commands.find((cmd) => cmd.pattern === (text.split(" ")[0].toLowerCase()))
                 if (!cmd) return await citel.reply("*❌No Such commands.*");
-                else arr.push(`*🍁Command:* ${cmd.pattern}`);
-                if (cmd.category) arr.push(`*🧩Category:* ${cmd.category}`);
-                if (cmd.alias) arr.push(`*🧩Alias:* ${cmd.alias}`);
-                if (cmd.desc) arr.push(`*🧩Description:* ${cmd.desc}`);
-                if (cmd.use) arr.push(`*〽️Usage:*\n \`\`\`${prefix}${cmd.pattern} ${cmd.use}\`\`\``);
+                else arr.push(`*🦁Command:* ${cmd.pattern}`);
+                if (cmd.category) arr.push(`*🦁Category:* ${cmd.category}`);
+                if (cmd.alias) arr.push(`*🦁Alias:* ${cmd.alias}`);
+                if (cmd.desc) arr.push(`*🦁Description:* ${cmd.desc}`);
+                if (cmd.use) arr.push(`*〽🦁Usage:*\n \`\`\`${prefix}${cmd.pattern} ${cmd.use}\`\`\``);
                 return await citel.reply(arr.join('\n'));
             } else {
                 const cmds = {}
@@ -56,16 +56,16 @@ Secktor.cmd({
                 let str = `╭────《 ` + fancytext(Config.ownername.split(' ')[0], 58) + ` 》─────⊷\n`
                 str +=
                     '```' + `│ ╭──────────────◆
-│ │ User:- ${citel.pushName}
-│ │ Theme:- ${tlang().title}
-│ │ Prefix:- [ ${prefix} ]
-│ │ Owner:- ${Config.ownername}
-│ │ Plugins:- ${commands.length}
-│ │ Users:- ${total}
-│ │ Uptime:- ${runtime(process.uptime())}
-│ │ Mem:- ${formatp(os.totalmem() - os.freemem())}/${formatp(os.totalmem())}
-│ │ Time:- ${time}
-│ │ Date:- ${date}
+│ │ User🦁:- ${citel.pushName}
+│ │ Theme🦁:- ${tlang().title}
+│ │ Prefix🦁:- [ ${prefix} ]
+│ │ Owner🦁:- ${Config.ownername}
+│ │ Plugins🦁:- ${commands.length}
+│ │ Users🦁:- ${total}
+│ │ Uptime🦁:- ${runtime(process.uptime())}
+│ │ Mem🦁:- ${formatp(os.totalmem() - os.freemem())}/${formatp(os.totalmem())}
+│ │ Time🦁:- ${time}
+│ │ Date🦁:- ${date}
 │ ╰──────────────◆
 ╰───────────────⊷\n
 ` + '```'
@@ -103,13 +103,13 @@ Secktor.cmd({
 ╭━━〘 ` + fancytext(Config.ownername.split(' ')[0], 58) + ` 〙━━──⊷`
             str += `
 ┃ ⛥╭──────────────      
-┃ ⛥│ User: ${citel.pushName}
-┃ ⛥│ Theme: ${tlang().title}
-┃ ⛥│ Prefix: ${prefix}
-┃ ⛥│ Owner: ${Config.ownername}
-┃ ⛥│ Commands: ${commands.length}
-┃ ⛥│ Uptime: ${runtime(process.uptime())}
-┃ ⛥│ Mem: ${formatp(os.totalmem() - os.freemem())}/${formatp(os.totalmem())}
+┃ ⛥│ User🦁: ${citel.pushName}
+┃ ⛥│ Theme🦁: ${tlang().title}
+┃ ⛥│ Prefix🦁: ${prefix}
+┃ ⛥│ Owner🦁: ${Config.ownername}
+┃ ⛥│ Commands🦁: ${commands.length}
+┃ ⛥│ Uptime🦁: ${runtime(process.uptime())}
+┃ ⛥│ Mem🦁: ${formatp(os.totalmem() - os.freemem())}/${formatp(os.totalmem())}
 ┃ ⛥│  
 ┃ ⛥╰───────────
 ╰━━━━━━━━━━━──⊷\n`
@@ -128,7 +128,7 @@ Secktor.cmd({
         pattern: "owner",
         desc: "To find owner number",
         category: "general",
-        react: "💜",
+        react: "🦁",
         filename: __filename
     },
     async(Void, citel) => {
@@ -165,7 +165,7 @@ Secktor.cmd({
     pattern: "file",
     desc: "to get extact name where that command is in repo.\nSo user can edit that.",
     category: "general",
-    react: "✨",
+    react: "🦁",
     filename: __filename
 },
 async(Void, citel, text) => {
@@ -173,9 +173,9 @@ async(Void, citel, text) => {
  let arr = [];
         const cmd = commands.find((cmd) => cmd.pattern === (text.split(" ")[0].toLowerCase()))
         if (!cmd) return await citel.reply("*❌No Such commands.*");
-        else arr.push(`*🍁Command:* ${cmd.pattern}`);
-        if (cmd.category) arr.push(`*🧩Type:* ${cmd.category}`);
-        if(cmd.filename) arr.push(`✨FileName: ${cmd.filename}`)
+        else arr.push(`*🦁Command:* ${cmd.pattern}`);
+        if (cmd.category) arr.push(`*🦁Type:* ${cmd.category}`);
+        if(cmd.filename) arr.push(`🦁FileName: ${cmd.filename}`)
         return citel.reply(arr.join('\n'));
 
 
