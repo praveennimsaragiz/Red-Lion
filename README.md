@@ -12,9 +12,7 @@
 ## web site
 https://sites.google.com/view/egsgfksa/home
 ##
-## scan Qr 
-https://replit.com/@SuhailTechInfo/Secktor-Bot
-##
+<button>https://sites.google.com/view/egsgfksa/home</button>
 
   
   ### Add Config Vars
